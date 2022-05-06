@@ -3,14 +3,50 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .header,
 .footer {
     background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .secondary {
     background: #e5e7eb;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.companyname {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.linkandsecondary {
+    font-size: 18px;
+    color: #e5e7eb;
 }
