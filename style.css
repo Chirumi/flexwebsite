@@ -25,7 +25,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 1150px;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .two {
@@ -34,7 +34,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 1150px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 }
 
 ul {
@@ -52,7 +52,7 @@ a {
 .companyname {
     font-size: 24px;
     color: #F9FAF8;
-    
+    font-weight: 900;
 }
 
 .linkandsecondary {
@@ -80,10 +80,10 @@ a {
 .topbutton {
     background: #3882f6;
     color: white;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     border-radius: 8px;
     border: 0;
     margin-top: 10px;
