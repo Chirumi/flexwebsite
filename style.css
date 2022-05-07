@@ -16,6 +16,7 @@ body {
     flex-shrink: 0;
 }
 
+
 .secondary {
     background: #e5e7eb;
 }
@@ -96,6 +97,7 @@ a {
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
+   
 }
 
 .topbutton {
@@ -170,8 +172,8 @@ a {
     align-items: center;
     margin-left: 280px;
     margin-right: 280px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 120px;
+    margin-bottom: 120px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 30px;
@@ -182,4 +184,16 @@ a {
 
 .time {
     font-weight: bold;
+}
+
+.bottombutton {
+    border: 1;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+.footer {
+    font-size: 16px;
+    color: #e5e7eb;
+    padding: 25px;
 }
