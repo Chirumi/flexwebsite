@@ -53,7 +53,7 @@ a {
 
 .companyname,
 .tertiary {
-    font-size: 24px;
+    font-size: 30px;
     color: #F9FAF8;
 }
 
@@ -62,7 +62,6 @@ a {
 }
 
 .linkandsecondary,
-.subtexttwo,
 .smol {
     font-size: 18px;
     color: #e5e7eb;
@@ -119,7 +118,9 @@ a {
     align-items: center;
     margin-bottom: 150px;
     margin-left: 49px;
+    gap: 250px;
 }
+
 
 .primarytext {
     margin-top: 55px;
@@ -129,14 +130,21 @@ a {
     color: #1F2937;
 }
 
-.subtexttwo {
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 300px;
+    width: 100px;
+    color: #1F2937;
     justify-content: center;
+    gap: 10px;
+}
+
+.subtexttwo {
+    font-size: 18px;
     color: #1F2937;
 }
+
 
 .secondary {
     display: flex;
@@ -196,4 +204,8 @@ a {
     font-size: 16px;
     color: #e5e7eb;
     padding: 25px;
+}
+
+.yam {
+    width: 250px;
 }
